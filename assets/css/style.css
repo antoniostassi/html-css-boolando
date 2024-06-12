@@ -219,3 +219,7 @@ footer .section.flex h4 {
     text-align:right;
     font-size:13px;
 }
+
+footer .sec1-2 ul li a:hover{
+    color:#FF6900;
+}
