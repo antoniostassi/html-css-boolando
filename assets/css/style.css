@@ -167,8 +167,9 @@ main .sec1-3{
 }
 
 main .container-img.relative img{
-    border-radius:15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 1px 10px;
     border: 1px solid #EBEBEB;
 }
 
