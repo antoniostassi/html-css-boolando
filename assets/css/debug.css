@@ -23,3 +23,7 @@
 .debug.true .container-img .discount-section.flex{
     border:5px dashed white;
 }
+
+.debug.true footer {
+    border:1px solid black;
+}

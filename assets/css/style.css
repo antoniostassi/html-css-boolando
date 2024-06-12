@@ -132,9 +132,17 @@ main .sec1-3 .relative img {
 
 main .section.flex {
     justify-content:space-between;
+    flex-wrap:wrap;
 }
 
 main .sec1-3{
     width:calc(100%/3 - 10px);
+    margin-bottom:20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1A1A1A;
 }
 
