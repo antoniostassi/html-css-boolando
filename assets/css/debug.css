@@ -15,3 +15,11 @@
 .debug.true main .section {
     border: 1px dashed #FF6900;
 }
+
+.debug.true .container-img {
+    border:5px dashed green;
+}
+
+.debug.true .container-img .discount-section.flex{
+    border:5px dashed white;
+}
