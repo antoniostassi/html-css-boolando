@@ -1,0 +1,13 @@
+
+.debug.true .container{
+    border:1px solid black;
+}
+
+.debug.true .sec1-3{
+    border: 1px solid;
+}
+
+.debug.true .sec1-3.flex a,
+.debug.true .sec1-3.flex img{
+    border:1px solid black;
+}
