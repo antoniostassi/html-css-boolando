@@ -1,6 +1,7 @@
 
 .debug.true .container{
     border:1px solid black;
+
 }
 
 .debug.true .sec1-3{
@@ -26,4 +27,27 @@
 
 .debug.true footer {
     border:1px solid black;
+}
+
+.debug.true .sec1-2 {
+    border:2px dashed pink;
+}
+
+.debug.true footer .container .section.flex .sec1-2:nth-of-type(2) {
+    border:2px dashed white;
+}
+
+.debug.true footer ul {
+    border:2px dashed white;
+}
+
+.debug.true footer ul li {
+    border:2px dashed white;
+}
+.debug.true footer ul li:before {
+    content: "| <li>";
+}
+
+.debug.true footer ul::before{
+    content:"<ul>";
 }

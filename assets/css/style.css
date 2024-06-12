@@ -19,6 +19,11 @@ a{
     color:white;    
 }
 
+ul{
+    text-decoration:none;
+    list-style-type: none;
+}
+
 /* Colori */
 .red{
     background-color:red;
@@ -42,6 +47,10 @@ a{
     width:calc(100%/3);
 }
 
+.sec1-2{
+    width:calc(100%/2);
+}
+
 .section{
     padding-top:40px;
     margin-bottom:40px;
@@ -56,6 +65,8 @@ a{
     color:white;
     padding:5px;
     margin-right:5px;
+    font-size:12px;
+    font-weight:bold;
 }
 
 .discount-section {
@@ -82,6 +93,7 @@ a{
     font-size:13px;
     text-decoration: line-through;
 }
+
 /* Header */
 
 header {
@@ -144,5 +156,34 @@ main .sec1-3{
 
 footer {
     background-color: #1A1A1A;
+    color:white;
+    padding:5px;
 }
 
+footer .section.flex {
+    justify-content:space-between;
+}
+
+footer .section.flex .sec1-2:first-child ul{
+    justify-content:flex-start;
+    font-size:small;
+    padding-top:10px;
+}
+
+footer .section.flex .sec1-2:first-child ul li {
+    margin-right:10px;
+}
+
+footer .section.flex .sec1-2:nth-of-type(2) ul {
+    justify-content: flex-end;
+}
+
+footer .section.flex .sec1-2:nth-of-type(2) ul li {
+    padding: 3px;
+    font-size:20px;
+}
+
+footer .section.flex h4 {
+    text-align:right;
+    font-size:13px;
+}
