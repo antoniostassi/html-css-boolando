@@ -19,6 +19,15 @@ a{
     color:white;    
 }
 
+/* Colori */
+.red{
+    background-color:red;
+
+}
+.green{
+    background-color:green;
+}
+
 /* General */
 .container {
     max-width:80%;
@@ -31,8 +40,28 @@ a{
 
 .sec1-3{
     width:calc(100%/3);
-    padding:20px;
 }
+
+.section{
+    padding-top:20px;
+}
+
+.relative{
+    position:relative;
+}
+
+.discount-amount,
+.discount-description{
+    color:white;
+    padding:5px;
+}
+
+.discount-section {
+    position:absolute;
+    bottom:20px;
+    left:0;
+}
+
 
 /* Header */
 
@@ -42,6 +71,10 @@ header {
 
 header .container.flex .sec1-3:first-child{
     align-items:center;
+}
+
+header .container.flex .sec1-3{
+    padding:20px;
 }
 
 header .container.flex .sec1-3:nth-of-type(3) {
@@ -62,5 +95,11 @@ header .container.flex .sec1-3:nth-of-type(2){
 }
 
 header .sec1-3 img {
-    width:55%;
+    width:150px;
+}
+
+/* Main */
+
+.sec1-3 .relative img {
+    display:block;
 }
